@@ -283,7 +283,7 @@ header ul li a:hover {
     border-radius: 50%;
     height:159px;
     width:159px;
-    object-fit: cover;
+    object-fit:cover;
 }
 
 
