@@ -1,0 +1,473 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+:root{
+    --main-dd-green: #4ABA70;
+    --discount-dd-yellow: #FFE799;
+    --main-dd-white: #FFFFFF;
+    --main-dd-navy-blue: #242C42;
+}
+body{
+    background-color: #F4F4F4 !important;
+}
+
+.discount-announcement{
+    background-color: var(--discount-dd-yellow);
+    text-align: center;
+    
+}
+
+.owl-carousel .owl-item img{
+    display: inline-block;
+    width:159px;
+}
+
+.discount-wrapper{
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-left: 20%;
+    margin-right:20%;
+
+}
+
+.discount-text{
+    display:inline-block;
+    max-height:50px;
+}
+
+.discount-text p{
+    font-size:16px;
+    font-weight: 300;
+}
+.remaining-time{
+    font-weight: 700;
+}
+
+
+
+header{
+    background-color: var(--main-dd-white);
+    height: 88px;
+}
+
+.dodo-akademi-logo{
+    width:165px;
+    height:88px;
+}
+
+header ul{
+    float: right; 
+    margin-top: 35px;
+    padding-top:0px;
+}
+
+header ul li{
+    margin-left:44px;
+    margin-right:44px; 
+    display: inline;
+    
+}
+
+header ul li a {
+    background-color:none;
+    color:black;
+    font-weight:bold;
+}
+
+header ul li a:hover {
+    color:black;
+    text-decoration: none;
+}
+
+.buy-course-redirect-link{
+    color: var(--main-dd-white);;
+    padding:16px 33px 16px 33px;
+    border-radius: 22px;
+    background-color: var(--main-dd-green);
+}
+
+.buy-course-redirect-link:hover{
+    color: var(--main-dd-white);;
+}
+
+.hero{
+    background-color: var(--main-dd-navy-blue);
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.hero-image{
+    width: 100%;
+    height: auto;
+    border-radius: 26px;
+
+}
+
+.hero-title{
+    font-size: 28px;
+    color: var(--main-dd-white);
+    font-weight: lighter;
+    text-align: center;
+}
+
+#bold-detailed-text{
+    font-weight: bold;
+}
+
+.steps-with-details{
+    background-color: #f4f4f4;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.step-boxes{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+    padding-top:30px;
+    padding-bottom:30px;
+    border-radius: 25px;
+    background-color: var(--main-dd-white);
+}
+
+.step-icon-background{
+    margin-left:18px;
+    background-color: var(--main-dd-green);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.step-title h1{
+    text-align: center;
+    font-size:20px;
+    margin-top:10px;
+    width:100%;
+    font-weight: bold;
+}
+
+.step-description{
+    text-align:center;
+    font-size:13px;
+    color: #707070;
+    opacity: 0.39;
+    width:100%;
+    margin-top:10px;
+    padding-left:15px;
+    padding-right:15px;
+
+}
+
+
+.demo-video{
+    width:100%;
+    height: auto;
+}
+
+.video-layout iframe{
+    height:392px;
+    width: 70%;
+    border-style: none;
+}
+
+.promoted-courses{
+    margin-top:77px;
+}
+
+
+.title h1{
+    font-size:28px;
+    font-weight:bold;
+    color: #242C42;
+}
+
+
+
+.lecture-card{
+    position:relative;
+    padding-bottom:20px;
+    border-radius: 26px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.01), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+.new-course-label{
+    position:absolute;
+    top:20px;
+    left:20px;
+    padding:5px 21px 5px 21px;
+    background-color: var(--main-dd-green);
+    color: var(--main-dd-white);
+    font-size: 18px;
+    font-weight:bold;
+}
+
+.course-image{
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+}
+.price-label{
+    margin-top:10px;
+    height:40px;
+}
+.new-price{
+    display:inline-block;
+    color:var(--main-dd-navy-blue);
+    font-size: 28px;
+    margin-left:10px;
+    font-weight: bold;
+}
+
+.previous-price{
+    display:inline-block;
+    font-size:19px;
+    margin-left:10px;
+    color:#979797;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.lecture-name{
+    font-size:28px;
+    height:25px;
+    color: var(--main-dd-navy-blue);
+    margin-left:10px;
+    font-weight: bold;
+}
+
+.lecture-subject{
+    font-size:18px;
+    color: var(--main-dd-navy-blue);
+    margin-left:10px; 
+    font-weight: bold;
+}
+
+.lecture-details{
+    margin:5px 12px 15px 12px;
+    font-size:12px;
+    color:#707070;
+    opacity: 0.39;
+}
+
+.icon{
+    height:29px;
+    width:29px;
+    margin:10px;
+}
+
+.user-testimonial{
+    margin-top:100px;
+}
+
+.user-testimonial-card{
+    text-align: center;
+    padding-bottom:24px;
+    padding-top:27px;
+}
+
+.testimonial-title h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+
+.user-image img{
+    border-radius: 50%;
+    height:159px;
+    width:159px;
+}
+
+
+.user-name h1{
+    font-size:16px;
+    margin-top:17px;
+    font-weight: bold;
+}
+
+.user-details h4{
+    font-size:15px;
+    color: #707070;
+    opacity: 0.39;
+}
+
+
+.user-comment p{
+    font-size:20px;
+    color: #242C42;
+    text-align: center;
+}
+
+.instructor-application{
+    margin-top:100px;
+    margin-bottom:100px;
+    background-color: #242C42;
+}
+
+
+
+.application-header h1{
+    text-align:center;
+    padding-top:80px; 
+    color: white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.application-button{
+    padding-bottom:80px;
+    margin-top:28px;
+    text-align: center;
+}
+
+
+.application-button a{
+    background-color: var(--main-dd-green);
+    color:white;
+    padding:16px 28px 16px 28px;
+    font-size:24px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+
+
+.company-adress p{
+    font-weight: 400;
+    color: #242C42;
+    opacity:0.23;
+    text-align:left;
+}
+
+.about-us-title > h1{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.site-map-footer-links a{
+    color: #242C42;
+    opacity:0.23;
+    text-align:left;
+}
+
+.site-map-footer-links a:hover{
+    text-decoration: none;
+    color: black;
+    opacity:0.23;
+    text-align:left;
+}
+.social-media-icons{
+    margin-bottom:100px;
+}
+
+.social-media-title h1{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.social-media-icons a{
+    color: #242C42;
+    opacity:0.23;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+} 
+
+
+.footer{
+    margin-bottom:100px;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .discount-wrapper{
+        padding-top:20px;
+        padding-bottom:20px;
+        margin-left: 5%;
+        margin-right:5%;
+    
+    }
+   .header-menu{
+        display: none;
+   }
+   .hero-title{
+       font-size:20px;
+   }
+
+   .step-boxes{
+       margin-top:30px;
+   }
+
+   .user-comments p{
+       font-size:18px;
+   }
+
+   .video-layout iframe{
+    height:392px;
+    width: 90%;
+    border-style: none;
+    }
+
+    .hero-title{
+    font-size:20px;
+    }
+
+    .step-icon-background{
+        text-align:center;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    .discount-wrapper{
+        padding-top:20px;
+        padding-bottom:20px;
+        margin-left: 5%;
+        margin-right:5%;
+    
+    }
+
+    .hero-image{
+        margin-top:20px;
+    }
+
+    .hero-title{
+        font-size:24px;
+        margin-top:25px;
+
+    }
+    .step-boxes{
+        margin-top:20px;
+    }
+
+    .promoted-courses{
+        margin-left:100px;
+        margin-right:100px;
+    }
+    
+    .lecture-card{
+        margin-top:25px;
+    }
+
+
+    .step-icon-background{
+        text-align:center;
+    }
+}
+
+
+
