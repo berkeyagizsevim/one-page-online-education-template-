@@ -1,1 +1,1 @@
-# one-page-online-education-template-
+# one-page-online-education-template
